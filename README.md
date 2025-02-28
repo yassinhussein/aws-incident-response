@@ -1,10 +1,10 @@
-# AWS Incident Response Automation
+# AWS Incident Response Automation Project
 
 ## Overview
-This project automates IAM security responses using AWS Lambda, 
+Pretty much for this project I automated IAM security responses using AWS Lambda, 
 CloudWatch, and CloudTrail.
 If an IAM user is created, Lambda automatically disables the user and 
-applies a deny-all policy.
+applies a deny-all policy... Zero trust Policy!
 
 ## How It Works
 - CloudTrail logs IAM events
@@ -17,6 +17,6 @@ applies a deny-all policy.
 - Attach IAM permissions to allow user modification
 - Configure CloudWatch rule to detect IAM user creation
 
-## Author
+## Cloud Guru
 - Yassin Hussein
 
